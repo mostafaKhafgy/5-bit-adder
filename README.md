@@ -35,7 +35,7 @@ The main objective of the project is to:
 - [ ] **Add 7-Segment Displays circuit** `Assign to` [Ahmed M. Ezzeldeen](https://github.com/ahmed3zzeldeen/) 
   - [X] Add 6x64 Decoder circuit from 4x16 Decoder circuits 
   - [ ] Add 7-Segment Display circuit
-  - [ ] Segment - A, B, C, D, E, F, G 
+  - [X] Segment - A, B, C, D, E, F, G 
 - [ ] **Add Control Bit for Decimal/Hexadecimal Switching** `Assign to` [Mostafa Khafgy](https://github.com/mostafaKhafgy)
 - [ ] **Logic for Display Mode** [Ahmed M. Ezzeldeen](https://github.com/ahmed3zzeldeen/)
 - [ ] **Connect Everything Together** `Assign to` [Ahmed M. Ezzeldeen](https://github.com/ahmed3zzeldeen/) and [Mostafa Khafgy](https://github.com/mostafaKhafgy)
