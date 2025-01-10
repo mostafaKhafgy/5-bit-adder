@@ -41,7 +41,7 @@ The main objective of the project is to:
   - [X] Add Display-Hex circuit
 - [X] **Add Control Bit for Decimal/Hexadecimal Switching** `Assign to` [Mostafa Khafgy](https://github.com/mostafaKhafgy)
 - [X] **Logic for Display Mode** [Ahmed M. Ezzeldeen](https://github.com/ahmed3zzeldeen/)
-- [ ] **Connect Everything Together** `Assign to` [Ahmed M. Ezzeldeen](https://github.com/ahmed3zzeldeen/) and [Mostafa Khafgy](https://github.com/mostafaKhafgy)
+- [X] **Connect Everything Together** `Assign to` [Ahmed M. Ezzeldeen](https://github.com/ahmed3zzeldeen/) and [Mostafa Khafgy](https://github.com/mostafaKhafgy)
 
 
 let's start with the design of the Full Adder Subcircuit :smile: :fire: 
