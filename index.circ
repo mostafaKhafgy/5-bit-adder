@@ -107,4 +107,67 @@
       <a name="label" val="B"/>
     </comp>
   </circuit>
+   <circuit name="FullAdder">
+    <a name="circuit" val="FullAdder"/>
+    <a name="clabel" val=""/>
+    <a name="clabelup" val="east"/>
+    <a name="clabelfont" val="SansSerif plain 12"/>
+    <appear>
+      <path d="M61,56 Q65,66 69,56" fill="none" stroke="#808080" stroke-width="2"/>
+      <rect fill="none" height="60" stroke="#000000" stroke-width="2" width="49" x="50" y="51"/>
+      <text font-family="SansSerif" font-size="12" text-anchor="middle" x="74" y="90">FA</text>
+      <circ-port height="8" pin="90,90" width="8" x="66" y="46"/>
+      <circ-port height="8" pin="90,150" width="8" x="46" y="76"/>
+      <circ-port height="8" pin="90,210" width="8" x="46" y="96"/>
+      <circ-port height="10" pin="490,100" width="10" x="95" y="75"/>
+      <circ-port height="10" pin="490,220" width="10" x="75" y="105"/>
+      <circ-anchor facing="east" height="6" width="6" x="97" y="77"/>
+    </appear>
+    <wire from="(90,90)" to="(280,90)"/>
+    <wire from="(380,130)" to="(380,200)"/>
+    <wire from="(90,150)" to="(150,150)"/>
+    <wire from="(140,170)" to="(140,210)"/>
+    <wire from="(370,100)" to="(490,100)"/>
+    <wire from="(260,110)" to="(280,110)"/>
+    <wire from="(240,160)" to="(260,160)"/>
+    <wire from="(90,210)" to="(140,210)"/>
+    <wire from="(260,110)" to="(260,160)"/>
+    <wire from="(370,130)" to="(380,130)"/>
+    <wire from="(250,190)" to="(250,270)"/>
+    <wire from="(380,200)" to="(390,200)"/>
+    <wire from="(140,170)" to="(150,170)"/>
+    <wire from="(240,190)" to="(250,190)"/>
+    <wire from="(250,270)" to="(390,270)"/>
+    <wire from="(390,240)" to="(390,270)"/>
+    <wire from="(450,220)" to="(490,220)"/>
+    <comp lib="0" loc="(90,90)" name="Pin">
+      <a name="tristate" val="false"/>
+      <a name="label" val="Cin"/>
+    </comp>
+    <comp loc="(190,180)" name="HA"/>
+    <comp lib="0" loc="(490,100)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="label" val="Sum"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="0" loc="(490,220)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="label" val="Cout"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp loc="(320,120)" name="HA"/>
+    <comp lib="0" loc="(90,150)" name="Pin">
+      <a name="tristate" val="false"/>
+      <a name="label" val="A"/>
+    </comp>
+    <comp lib="0" loc="(90,210)" name="Pin">
+      <a name="tristate" val="false"/>
+      <a name="label" val="B"/>
+    </comp>
+    <comp lib="1" loc="(450,220)" name="XOR Gate">
+      <a name="inputs" val="2"/>
+    </comp>
+  </circuit>
 </project>
