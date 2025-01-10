@@ -55,4 +55,56 @@
     <a name="clabelup" val="east"/>
     <a name="clabelfont" val="SansSerif plain 12"/>
   </circuit>
+  <circuit name="HA">
+    <a name="circuit" val="HA"/>
+    <a name="clabel" val=""/>
+    <a name="clabelup" val="east"/>
+    <a name="clabelfont" val="SansSerif plain 12"/>
+    <appear>
+      <rect fill="none" height="70" stroke="#000000" stroke-width="2" width="88" x="160" y="70"/>
+      <text font-family="SansSerif" font-size="12" text-anchor="middle" x="201" y="99">HA</text>
+      <circ-port height="8" pin="130,40" width="8" x="156" y="76"/>
+      <circ-port height="8" pin="100,90" width="8" x="156" y="96"/>
+      <circ-port height="10" pin="350,60" width="10" x="245" y="85"/>
+      <circ-port height="10" pin="340,140" width="10" x="245" y="115"/>
+      <circ-anchor facing="east" height="6" width="6" x="197" y="107"/>
+    </appear>
+    <wire from="(130,40)" to="(160,40)"/>
+    <wire from="(160,40)" to="(190,40)"/>
+    <wire from="(160,40)" to="(160,120)"/>
+    <wire from="(100,90)" to="(130,90)"/>
+    <wire from="(130,90)" to="(130,160)"/>
+    <wire from="(130,90)" to="(190,90)"/>
+    <wire from="(310,140)" to="(340,140)"/>
+    <wire from="(190,80)" to="(190,90)"/>
+    <wire from="(130,160)" to="(260,160)"/>
+    <wire from="(160,120)" to="(260,120)"/>
+    <wire from="(250,60)" to="(350,60)"/>
+    <comp lib="1" loc="(310,140)" name="AND Gate">
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="0" loc="(130,40)" name="Pin">
+      <a name="tristate" val="false"/>
+      <a name="label" val="A"/>
+    </comp>
+    <comp lib="1" loc="(250,60)" name="XOR Gate">
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="0" loc="(350,60)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="label" val="sum"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="0" loc="(340,140)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="label" val="carry"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="0" loc="(100,90)" name="Pin">
+      <a name="tristate" val="false"/>
+      <a name="label" val="B"/>
+    </comp>
+  </circuit>
 </project>
