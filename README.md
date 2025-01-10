@@ -30,7 +30,7 @@ The main objective of the project is to:
 
 ## Task List
 
-- [ ] **Create the Full Adder Subcircuit** `Assign to` [Mostafa Khafgy](https://github.com/mostafaKhafgy)
+- [X] **Create the Full Adder Subcircuit** `Assign to` [Mostafa Khafgy](https://github.com/mostafaKhafgy)
 - [ ] **Create the 5-bit Full Adder Using the Full Adder Subcircuit**  `Assign to` [Mostafa Khafgy](https://github.com/mostafaKhafgy)
 - [X] **Add 7-Segment Displays circuit** `Assign to` [Ahmed M. Ezzeldeen](https://github.com/ahmed3zzeldeen/) 
   - [X] Add 6x64 Decoder circuit from 4x16 Decoder circuits 
